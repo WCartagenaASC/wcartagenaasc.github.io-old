@@ -166,12 +166,12 @@ function draw() {
 
 	}
 
-	if (touchIsDown(87) == true){
-		if (bulletFired == false){
-			bulletX = playerX + 15;
-			bulletFired = true;
-		}
-	}
+	//if (touchIsDown(87) == true){
+	//	if (bulletFired == false){
+	//		bulletX = playerX + 15;
+	///		bulletFired = true;
+	//	}
+	//}
 	
 
 	if (bulletFired == true) { /*Players Bullet*/
