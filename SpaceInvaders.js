@@ -165,6 +165,26 @@ function draw() {
 
 
 	}
+	/*Player Moving Keys*/
+	if (touchMoved(65)== true) {
+		playerX = playerX - 5;
+		ship.position.x = playerX + 15;
+	}
+	if (toucMoved(68)== true) {
+		playerX = playerX + 5;
+		ship.position.x = playerX + 15;
+	}
+
+	if (touchIsDown(87)== true){
+		if (bulletFired == false){
+			bulletX = playerX + 15;
+			bulletFired = true;
+			
+	
+		}
+
+
+	}
 
 	if (bulletFired == true) { /*Players Bullet*/
 		rect(bulletX - 5, bulletY, 5, 10);
