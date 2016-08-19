@@ -166,13 +166,10 @@ function draw() {
 
 	}
 
-	//if (touchIsDown(87) == true){
-	//	if (bulletFired == false){
-	//		bulletX = playerX + 15;
-	///		bulletFired = true;
-	//	}
-	//}
-	
+	function touchMoved(){
+		playerX = playerX + 5;
+		ship.position.x = playerX + 15;
+	}
 
 	if (bulletFired == true) { /*Players Bullet*/
 		rect(bulletX - 5, bulletY, 5, 10);
