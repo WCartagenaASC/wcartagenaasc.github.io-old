@@ -67,11 +67,9 @@ function draw() {
 	text(lives, 600, 30);
 	aliensAlive = false;
 
-	//rect(powerUpX, powerUpY, 30, 30);
+	rect(touchX, 400, 50, 50);
+
 	
-
-
-
 
 
 	alienX = alienX + alienSpeedX; // Boundaries!!!!
@@ -125,14 +123,6 @@ function draw() {
 
 			}
 			
-
-			
-			// if ( (aliens[i][j] == 1) && (intersect(bulletX1, bulletY1, alienX + i * alienSpaceX, alienY + j * alienSpaceY))){
-			// 	aliens[i][j] = 0;
-			// 	powerUp = false;
-			// 	bulletY1 = 565;
-			// 	myScore = myScore + 10;
-			// }
 			
 			// Check to see if alien's bullet hits the player
 			if (intersect(alienBulletX, alienBulletY, playerX, 550)){
@@ -166,10 +156,7 @@ function draw() {
 
 	}
 
-	function touchMoved(){
-		playerX = playerX + 5;
-		ship.position.x = playerX + 15;
-	}
+	
 
 	if (bulletFired == true) { /*Players Bullet*/
 		rect(bulletX - 5, bulletY, 5, 10);
@@ -181,6 +168,8 @@ function draw() {
 		}
 		
 	}
+
+	
 	
 	
 	// Aliens Bullet
