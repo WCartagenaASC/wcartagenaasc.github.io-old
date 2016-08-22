@@ -67,10 +67,6 @@ function draw() {
 	text(lives, 600, 30);
 	aliensAlive = false;
 
-	rect(touchX, 400, 50, 50);
-
-	
-
 
 	alienX = alienX + alienSpeedX; // Boundaries!!!!
 	alienXL = alienXL + alienSpeedX;
@@ -117,11 +113,6 @@ function draw() {
 
 			}
 
-			if (intersect(bulletX, bulletY, powerUpX, powerUpY)){
-				bulletX1 = playerX - 5;
-				rect(bulletX1, bulletY1, 5, 10);
-
-			}
 			
 			
 			// Check to see if alien's bullet hits the player
@@ -155,6 +146,7 @@ function draw() {
 
 
 	}
+
 
 	
 
