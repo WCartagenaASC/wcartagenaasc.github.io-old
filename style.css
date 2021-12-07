@@ -1,0 +1,165 @@
+
+body{
+    background-image: url("city.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times serif;
+    background-color:whitesmoke;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.navbar-custom{
+    background-color: lightskyblue;
+}
+
+nav li{
+
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+    position: relative;
+    text-align: center;
+    
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+nav a:hover{
+    color:black;
+}
+
+nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    
+    
+}
+
+.container .box2{
+    display: flex;
+    flex-wrap: wrap;
+    color:white ;
+    border:2px solid slategray;
+    background-color: black;
+    width: 480px;
+    height: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    border:2px solid white;
+}
+
+.container .box3{
+    display: flex;
+    flex-wrap: wrap;
+    color:white ;
+    border:2px solid slategray;
+    background-color: black;
+    width: 480px;
+    padding: 15px;
+    border-radius: 10px;
+    border:2px solid white;
+}
+
+.container .box4{
+    display: flex;
+    flex-wrap: wrap;
+    color:white ;
+    border:2px solid slategray;
+    background-color: black;
+    width: 450px;
+    padding: 15px;
+    border-radius: 10px;
+    border:2px solid white;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.projects .project1{
+    color:white ;
+    border:2px solid slategray;
+    background-color: black;
+    width: 450px;
+    height: 240px;
+    padding: 15px;
+    border-radius: 10px;
+    border:2px solid white;
+}
+
+.projects .project2{
+    color:white ;
+    border:2px solid slategray;
+    background-color: black;
+    width: 450px;
+    height: 240px;
+    padding: 15px;
+    border-radius: 10px;
+    border:2px solid white;
+}
+
+.projects .project3{
+    color:white ;
+    border:2px solid slategray;
+    background-color: black;
+    width: 450px;
+    height: 240px;
+    padding: 15px;
+    border-radius: 10px;
+    border:2px solid white;
+}
+
+.projects .project4{
+    color:white ;
+    border:2px solid slategray;
+    background-color: black;
+    width: 450px;
+    height: 240px;
+    padding: 15px;
+    border-radius: 10px;
+    border:2px solid white;
+}
+
+.projects .project5{
+    color:white ;
+    border:2px solid slategray;
+    background-color: black;
+    width: 800px;
+    height: 700px;
+    padding: 15px;
+    border-radius: 10px;
+    border:2px solid white;
+}
+

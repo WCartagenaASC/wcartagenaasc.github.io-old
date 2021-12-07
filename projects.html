@@ -8,11 +8,15 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Homepage</title>
+    <script src ="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.2/p5.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="p5.play.js"></script>
+    <script src ="SpaceInvaders.js"></script>
+    <title>projects</title>
 
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-custom navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-custom navbar-light" >
         <div class="container-fluid">
           <a class="navbar-brand" href="homepage.html"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,7 +25,7 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="homepage.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="projects.html">Projects</a>
@@ -38,16 +42,44 @@
           </div>
         </div>
       </nav>
-      <section class="container">
-        <div class="box1">
-          <img src = "wesleySH.jfif"  height = "600" alt="Picture of Wesley" class="box1">
+ 
+      <section class="projects">
+        <div class="project1">
+          <h3>Library Robot</h3>
+          <p>
+          Description: Built and programmed the SUNY New Paltz Library Robot, to serve a librarian assistant by going down the library aisles and scanning them for missing or misplaced books that are then sent to a website to inform the librarian 
+        </p>
         </div>
-        <div class="box2">
-          <h1>Wesley Cartagena</h1>
-          <p>I am an aspiring programmer looking to make an impact in the Tech industry.</p>
+        <div class="project2">
+          <h3>The Quest of Adra</h3>
+          <p>
+          Description: Developed a Top-Down 3-D game about a soldier on a quest to steal a mythical sword, and worked on the character movement/animation, screenplay, AI, character interaction, and sprite creation
+
+        </p>
+        </div>
+        <div class="project3">
+          <h3>BSW HOUSE</h3>
+          <p>
+          Description: Constructed an automated model home, controlled through a website where the doors, windows, and lights were connected to a Raspberry Pi and Arduino
+        </p>
+        </div>
+        <div class="project4">
+          <h3>Space Invaders</h3>
+          <p>
+          Description: Re-created the classic retro game space invaders using Javascripts p5 library
+        </p>
+        </div>
+        <div class="project5">
+          <p>
+            Space Invaders Demo
+          </p>
+          <div id = "canvasContainer"></div>
         </div>
       </section>
-      <div id = "canvasContainer"></div>
+
+
+
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
   </body>
